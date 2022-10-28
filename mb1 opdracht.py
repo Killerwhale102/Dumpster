@@ -258,6 +258,8 @@ def gate(has_lockpick):
             choice_6 = input("yes or no >> ")
             if choice_6 == "yes" and has_lockpick == True:
                 print("You open the gate with the lockpick")
+                print("The door leads to freedom")
+                win()
 
             elif choice_6 == "yes" and has_lockpick == False:
                 print("You dont have a lockpick")
