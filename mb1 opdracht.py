@@ -75,7 +75,7 @@ def story1():
     choice_2 = input
 
     while choice_2 != "soldiers" or "prisoners" or "alone":
-        choice_2 = input("soldiers, prisoners or alone")
+        choice_2 = input("soldiers, prisoners or alone >> ")
         if choice_2 == "soldiers":
             time.sleep(1)
             soldiers()
